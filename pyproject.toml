@@ -6,10 +6,11 @@ authors = [
     {name = "Samuel Figueiredo",email = "samuel.lobo2004@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = "^3.11"
 dependencies = [
     "requests (>=2.32.5,<3.0.0)",
-    "sqlmodel (>=0.0.25,<0.0.26)"
+    "sqlmodel (>=0.0.25,<0.0.26)",
+    "sqlalchemy (>=2.0.43,<3.0.0)"
 ]
 
 [tool.poetry]

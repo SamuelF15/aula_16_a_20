@@ -8,7 +8,7 @@ class Hero(SQLModel, table=True):
     secret_name: str
     age: int | None = None
 
-engine = create_engine("sqlite:///database.db", echo=True)
+engine = create_engine("sqlite:///meubanco_aula_16.db", echo=True)
 
 SQLModel.metadata.create_all(engine)
 
